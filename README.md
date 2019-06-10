@@ -1,2 +1,4 @@
 # MotorcycleFactory
-Abstract Factory example written in Java
+Abstract Factory example written in Java.
+## Description
+This project uses the design patterns of an abstract factory and a façade. The abstract factory is imitating a motorcycle factory. The factory is used to create instances of motorcycles. The subclasses of motorcycle are Naked bikes and Dirt bikes. The factory is used to create motorcycles for two racing teams, KTM and Kawasaki. Both teams have one naked bike and one dirt bike. These bikes will be raced on tracks, a dirt track and a street track. Each race has motorcycles from both teams and a track to be raced at. The Race class is acting as a façade for all the motorcycle, factory, and track classes. Depending on the type of track and type of bike the bike will receive a top speed penalty at the race after that the race will start. The winner depends on what bike has the top speed at the race after the penalty.  
